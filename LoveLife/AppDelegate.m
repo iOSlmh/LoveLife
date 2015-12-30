@@ -11,7 +11,9 @@
 #import "GuidePageVIew.h"
 #import "MMDrawerController.h"
 #import "LeftViewController.h"
-
+#import "UMSocialWechatHandler.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialSinaHandler.h"
 @interface AppDelegate ()
 
 @property(nonatomic,strong) MyTabBarViewController * myTabBar;
@@ -41,7 +43,21 @@
     [UIApplication sharedApplication].statusBarStyle =  UIStatusBarStyleLightContent;
     //添加引导页
     [self createGuidePage];
+    [self addUMShare];
     return YES;
+}
+-(void)addUMShare{
+
+    //注册友盟
+    [UMSocialData setAppKey:APPKEY];
+    //设置 QQ 的 appId appkey 和 url
+    [UMSocialQQHandler setQQWithAppId:@"1104908293" appKey:@"MnGtpPN5AiB6MNvj" url:nil];
+    //微信
+    [UMSocialWechatHandler setWXAppId:@"wx12b249bcbf753e87" appSecret:@"0a9cd00c48ee47a9b23119086bcd3b30" url:nil];
+    //打开微博的 SSO 开关
+    [UMSocialSinaHandler openSSOWithRedirectURL:nil];
+    //隐藏未安装的客户端 (主要针对 qq 和 微信)
+    [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToQQ,UMShareToQzone,UMShareToWechatSession,UMShareToWechatTimeline]];
 }
 
 -(void)createGuidePage

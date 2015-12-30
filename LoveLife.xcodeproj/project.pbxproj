@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6F77511C3382E30087C411 /* ArcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F77501C3382E30087C411 /* ArcViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC6F77541C3382F70087C411 /* RecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F77531C3382F70087C411 /* RecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC8E9B7F1C33B35900E7B04F /* ReadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9B7E1C33B35900E7B04F /* ReadModel.m */; settings = {ASSET_TAGS = (); }; };
+		BC8E9B821C33B46200E7B04F /* ARCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9B811C33B46200E7B04F /* ARCCell.m */; settings = {ASSET_TAGS = (); }; };
+		BC8E9B851C33B47200E7B04F /* RecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9B841C33B47200E7B04F /* RecondCell.m */; settings = {ASSET_TAGS = (); }; };
+		BC8E9B881C33CBEC00E7B04F /* ARCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E9B871C33CBEC00E7B04F /* ARCDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC8E9B8A1C33D68700E7B04F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B891C33D68700E7B04F /* Security.framework */; };
+		BC8E9B8C1C33D74000E7B04F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B8B1C33D74000E7B04F /* SystemConfiguration.framework */; };
+		BC8E9B8E1C33D74B00E7B04F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B8D1C33D74B00E7B04F /* CoreGraphics.framework */; };
+		BC8E9B901C33D76A00E7B04F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B8F1C33D76A00E7B04F /* CoreTelephony.framework */; };
+		BC8E9B921C33D77D00E7B04F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B911C33D77D00E7B04F /* libstdc++.tbd */; };
+		BC8E9B941C33D78D00E7B04F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E9B931C33D78D00E7B04F /* libz.tbd */; };
 		DD0E72E41C32356A0037A152 /* GuidePageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E72E31C32356A0037A152 /* GuidePageVIew.m */; };
 		DD0E72E71C32601B0037A152 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E72E61C32601B0037A152 /* LeftViewController.m */; };
 		DD0E72EB1C3276D70037A152 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E72EA1C3276D70037A152 /* HomeModel.m */; };
@@ -219,6 +231,7 @@
 		DD265FF51C32222900102DAD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD265FF41C32222900102DAD /* HomeViewController.m */; };
 		DD265FF81C32223200102DAD /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD265FF71C32223200102DAD /* FoodViewController.m */; };
 		DD265FFB1C32227500102DAD /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD265FFA1C32227500102DAD /* MyTabBarViewController.m */; };
+		DD98DD391C33696200ADA57F /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98DD381C33696200ADA57F /* HomeDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +252,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6F774F1C3382E30087C411 /* ArcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcViewController.h; sourceTree = "<group>"; };
+		BC6F77501C3382E30087C411 /* ArcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcViewController.m; sourceTree = "<group>"; };
+		BC6F77521C3382F70087C411 /* RecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecondViewController.h; sourceTree = "<group>"; };
+		BC6F77531C3382F70087C411 /* RecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecondViewController.m; sourceTree = "<group>"; };
+		BC8E9B7D1C33B35900E7B04F /* ReadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadModel.h; sourceTree = "<group>"; };
+		BC8E9B7E1C33B35900E7B04F /* ReadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadModel.m; sourceTree = "<group>"; };
+		BC8E9B801C33B46200E7B04F /* ARCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCCell.h; sourceTree = "<group>"; };
+		BC8E9B811C33B46200E7B04F /* ARCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCCell.m; sourceTree = "<group>"; };
+		BC8E9B831C33B47200E7B04F /* RecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecondCell.h; sourceTree = "<group>"; };
+		BC8E9B841C33B47200E7B04F /* RecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecondCell.m; sourceTree = "<group>"; };
+		BC8E9B861C33CBEC00E7B04F /* ARCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCDetailViewController.h; path = ../ARCDetailViewController.h; sourceTree = "<group>"; };
+		BC8E9B871C33CBEC00E7B04F /* ARCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARCDetailViewController.m; path = ../ARCDetailViewController.m; sourceTree = "<group>"; };
+		BC8E9B891C33D68700E7B04F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BC8E9B8B1C33D74000E7B04F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC8E9B8D1C33D74B00E7B04F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC8E9B8F1C33D76A00E7B04F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BC8E9B911C33D77D00E7B04F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		BC8E9B931C33D78D00E7B04F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DD0E72E21C32356A0037A152 /* GuidePageVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageVIew.h; sourceTree = "<group>"; };
 		DD0E72E31C32356A0037A152 /* GuidePageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageVIew.m; sourceTree = "<group>"; };
 		DD0E72E51C32601B0037A152 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
@@ -584,6 +615,8 @@
 		DD265FFA1C32227500102DAD /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
 		DD265FFD1C32234600102DAD /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		DD265FFE1C32294D00102DAD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DD98DD371C33696200ADA57F /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		DD98DD381C33696200ADA57F /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,12 +624,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8E9B941C33D78D00E7B04F /* libz.tbd in Frameworks */,
+				BC8E9B921C33D77D00E7B04F /* libstdc++.tbd in Frameworks */,
+				BC8E9B901C33D76A00E7B04F /* CoreTelephony.framework in Frameworks */,
+				DD265FD21C321AB100102DAD /* libsqlite3.tbd in Frameworks */,
+				BC8E9B8E1C33D74B00E7B04F /* CoreGraphics.framework in Frameworks */,
+				BC8E9B8C1C33D74000E7B04F /* SystemConfiguration.framework in Frameworks */,
 				DD265FDC1C321ADD00102DAD /* libiconv.tbd in Frameworks */,
+				BC8E9B8A1C33D68700E7B04F /* Security.framework in Frameworks */,
 				DD265FDA1C321AD400102DAD /* QuartzCore.framework in Frameworks */,
 				DD265FD81C321ACB00102DAD /* CoreVideo.framework in Frameworks */,
 				DD265FD61C321AC300102DAD /* CoreMedia.framework in Frameworks */,
 				DD265FD41C321ABB00102DAD /* AVFoundation.framework in Frameworks */,
-				DD265FD21C321AB100102DAD /* libsqlite3.tbd in Frameworks */,
 				DD265FA41C3219E700102DAD /* libSocialQQ.a in Frameworks */,
 				DD265FB21C3219E700102DAD /* libSocialWechat.a in Frameworks */,
 				DD265FBF1C3219E700102DAD /* libzbar.a in Frameworks */,
@@ -626,6 +665,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC6F774D1C3382C30087C411 /* ArcVC */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F774F1C3382E30087C411 /* ArcViewController.h */,
+				BC6F77501C3382E30087C411 /* ArcViewController.m */,
+				BC8E9B861C33CBEC00E7B04F /* ARCDetailViewController.h */,
+				BC8E9B871C33CBEC00E7B04F /* ARCDetailViewController.m */,
+			);
+			path = ArcVC;
+			sourceTree = "<group>";
+		};
+		BC6F774E1C3382C30087C411 /* RecordVC */ = {
+			isa = PBXGroup;
+			children = (
+				BC6F77521C3382F70087C411 /* RecondViewController.h */,
+				BC6F77531C3382F70087C411 /* RecondViewController.m */,
+			);
+			path = RecordVC;
+			sourceTree = "<group>";
+		};
 		DD0E72E81C3272B50037A152 /* HomeModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,6 +699,10 @@
 			children = (
 				DD0E72ED1C3278EB0037A152 /* HomeCell.h */,
 				DD0E72EE1C3278EB0037A152 /* HomeCell.m */,
+				BC8E9B801C33B46200E7B04F /* ARCCell.h */,
+				BC8E9B811C33B46200E7B04F /* ARCCell.m */,
+				BC8E9B831C33B47200E7B04F /* RecondCell.h */,
+				BC8E9B841C33B47200E7B04F /* RecondCell.m */,
 			);
 			path = HomeCell;
 			sourceTree = "<group>";
@@ -1365,6 +1428,12 @@
 		DD265FDD1C3220E800102DAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC8E9B931C33D78D00E7B04F /* libz.tbd */,
+				BC8E9B911C33D77D00E7B04F /* libstdc++.tbd */,
+				BC8E9B8F1C33D76A00E7B04F /* CoreTelephony.framework */,
+				BC8E9B8D1C33D74B00E7B04F /* CoreGraphics.framework */,
+				BC8E9B8B1C33D74000E7B04F /* SystemConfiguration.framework */,
+				BC8E9B891C33D68700E7B04F /* Security.framework */,
 				DD265FDB1C321ADD00102DAD /* libiconv.tbd */,
 				DD265FD91C321AD400102DAD /* QuartzCore.framework */,
 				DD265FD71C321ACB00102DAD /* CoreVideo.framework */,
@@ -1379,6 +1448,8 @@
 			isa = PBXGroup;
 			children = (
 				DD0E72E81C3272B50037A152 /* HomeModel */,
+				BC8E9B7D1C33B35900E7B04F /* ReadModel.h */,
+				BC8E9B7E1C33B35900E7B04F /* ReadModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1433,6 +1504,8 @@
 			children = (
 				DD265FF31C32222900102DAD /* HomeViewController.h */,
 				DD265FF41C32222900102DAD /* HomeViewController.m */,
+				DD98DD371C33696200ADA57F /* HomeDetailViewController.h */,
+				DD98DD381C33696200ADA57F /* HomeDetailViewController.m */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -1460,6 +1533,8 @@
 			children = (
 				DD265FEA1C32221000102DAD /* ReadViewController.h */,
 				DD265FEB1C32221000102DAD /* ReadViewController.m */,
+				BC6F774D1C3382C30087C411 /* ArcVC */,
+				BC6F774E1C3382C30087C411 /* RecordVC */,
 			);
 			path = ReadVC;
 			sourceTree = "<group>";
@@ -1716,7 +1791,9 @@
 				DD265F771C3219E700102DAD /* FMDatabasePool.m in Sources */,
 				DD265FBA1C3219E700102DAD /* qrencode.c in Sources */,
 				DD265F851C3219E700102DAD /* MJRefreshBackStateFooter.m in Sources */,
+				DD98DD391C33696200ADA57F /* HomeDetailViewController.m in Sources */,
 				DD265F971C3219E700102DAD /* UIButton+WebCache.m in Sources */,
+				BC8E9B881C33CBEC00E7B04F /* ARCDetailViewController.m in Sources */,
 				DD265F7B1C3219E700102DAD /* MJRefreshAutoFooter.m in Sources */,
 				DD265FBE1C3219E700102DAD /* split.c in Sources */,
 				DD265F8F1C3219E700102DAD /* NSData+ImageContentType.m in Sources */,
@@ -1740,6 +1817,7 @@
 				DD265FFB1C32227500102DAD /* MyTabBarViewController.m in Sources */,
 				DD265F961C3219E700102DAD /* SDWebImagePrefetcher.m in Sources */,
 				DD265F9B1C3219E700102DAD /* UIImageView+HighlightedWebCache.m in Sources */,
+				BC8E9B7F1C33B35900E7B04F /* ReadModel.m in Sources */,
 				DD265F6D1C3219E700102DAD /* AFURLResponseSerialization.m in Sources */,
 				DD265F831C3219E700102DAD /* MJRefreshBackGifFooter.m in Sources */,
 				DD265FB71C3219E700102DAD /* bitstream.c in Sources */,
@@ -1752,10 +1830,12 @@
 				DD265F9A1C3219E700102DAD /* UIImage+WebP.m in Sources */,
 				DD265F7C1C3219E700102DAD /* MJRefreshBackFooter.m in Sources */,
 				DD265F6B1C3219E700102DAD /* AFURLConnectionOperation.m in Sources */,
+				BC8E9B821C33B46200E7B04F /* ARCCell.m in Sources */,
 				DD265F991C3219E700102DAD /* UIImage+MultiFormat.m in Sources */,
 				DD0E72EB1C3276D70037A152 /* HomeModel.m in Sources */,
 				DD0E72E41C32356A0037A152 /* GuidePageVIew.m in Sources */,
 				DD265F981C3219E700102DAD /* UIImage+GIF.m in Sources */,
+				BC6F77511C3382E30087C411 /* ArcViewController.m in Sources */,
 				DD265FB91C3219E700102DAD /* QRCodeGenerator.m in Sources */,
 				DD265F6A1C3219E700102DAD /* AFSecurityPolicy.m in Sources */,
 				DD265F8A1C3219E700102DAD /* MJRefreshConst.m in Sources */,
@@ -1774,9 +1854,11 @@
 				DD265F6E1C3219E700102DAD /* AFURLSessionManager.m in Sources */,
 				DD265F931C3219E700102DAD /* SDWebImageDownloader.m in Sources */,
 				DD265F791C3219E700102DAD /* FMResultSet.m in Sources */,
+				BC8E9B851C33B47200E7B04F /* RecondCell.m in Sources */,
 				DD265FF81C32223200102DAD /* FoodViewController.m in Sources */,
 				DD265F9E1C3219E700102DAD /* Carousel.m in Sources */,
 				DD265D891C3219C400102DAD /* main.m in Sources */,
+				BC6F77541C3382F70087C411 /* RecondViewController.m in Sources */,
 				DD265D951C3219C400102DAD /* LoveLife.xcdatamodeld in Sources */,
 				DD0E72E71C32601B0037A152 /* LeftViewController.m in Sources */,
 				DD265FBB1C3219E700102DAD /* qrinput.c in Sources */,
@@ -1934,6 +2016,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoveLife/ThirdLibrary/UMShare/TencentOpenAPI",
@@ -1941,6 +2024,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoveLife/PrefixHeader.pch";
 				INFOPLIST_FILE = LoveLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1960,6 +2044,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LoveLife/ThirdLibrary/UMShare/TencentOpenAPI",
@@ -1967,6 +2052,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LoveLife/PrefixHeader.pch";
 				INFOPLIST_FILE = LoveLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
