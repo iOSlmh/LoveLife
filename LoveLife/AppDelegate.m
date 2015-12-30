@@ -7,8 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "MyTabBarViewController.h"
+#import "GuidePageVIew.h"
+#import "MMDrawerController.h"
+#import "LeftViewController.h"
 
 @interface AppDelegate ()
+
+@property(nonatomic,strong) MyTabBarViewController * myTabBar;
+@property(nonatomic,strong) GuidePageVIew * guidePageView;
 
 @end
 
@@ -16,8 +23,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    //实例化
+    self.myTabBar = [[MyTabBarViewController alloc]init];
+    LeftViewController * leftVC = [[LeftViewController alloc]init];
+    
+    MMDrawerController * drawerVC = [[MMDrawerController alloc]initWithCenterViewController:self.myTabBar leftDrawerViewController:leftVC];
+    //设置抽屉打开和关闭的模式
+    drawerVC.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    drawerVC.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+    //设置左页面打开之后的宽度
+    drawerVC.maximumLeftDrawerWidth = SCREEN_W - 100;
+    
+    self.window.rootViewController = drawerVC;
+    
+    //修改状态栏的颜色（第二种方式）
+    [UIApplication sharedApplication].statusBarStyle =  UIStatusBarStyleLightContent;
+    //添加引导页
+    [self createGuidePage];
     return YES;
+}
+
+-(void)createGuidePage
+{
+    if (![[[NSUserDefaults standardUserDefaults]objectForKey:@"isRuned"]boolValue]) {
+        
+        NSArray * imageArray = @[@"welcome6",@"welcome7",@"welcome4"];
+        self.guidePageView = [[GuidePageVIew alloc]initWithFrame:self.window.bounds ImageArray:imageArray];
+        [self.myTabBar.view addSubview:self.guidePageView];
+        
+        //第一次运行完成之后进行记录
+        [[NSUserDefaults standardUserDefaults]setObject:@YES forKey:@"isRuned"];
+    }
+    
+    [self.guidePageView.GoInButton addTarget:self action:@selector(goInButtonClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)goInButtonClick
+{
+    [self.guidePageView removeFromSuperview];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
